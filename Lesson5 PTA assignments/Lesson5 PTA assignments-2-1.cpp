@@ -25,9 +25,9 @@ int *extract(int num)
 	dig1 = num / 100;
 	dig2 = num / 10 % 10;
 	dig3 = num % 10;
-	order[0] = { dig1 };
-	order[1] = { dig2 };
-	order[2] = { dig3 };
+	order[0] = dig1;
+	order[1] = dig2;
+	order[2] = dig3;
 	return order;
 }
 
